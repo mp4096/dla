@@ -1,0 +1,14 @@
+language: python
+sudo: false
+dist: trusty
+cache: pip
+
+python:
+  - "3.6"
+install:
+  - make init
+  - make init-dev
+  - make install-dev
+script:
+  - make test-coverage
+after_success: coveralls
