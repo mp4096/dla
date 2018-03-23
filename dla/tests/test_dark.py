@@ -1,6 +1,5 @@
 """Integration test of the DARK algorithm."""
 from dla.algos import DarkModel
-from dla.linalg import arnoldi, modified_gram_schmidt
 from dla.slicing import standard_slices
 from dla.topology import StaticAgentsNetwork
 import networkx as nx
