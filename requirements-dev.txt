@@ -1,0 +1,8 @@
+coverage
+coveralls
+pydocstyle
+pycodestyle
+pytest
+pytest-cov
+sphinx
+sphinx-rtd-theme

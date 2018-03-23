@@ -1,0 +1,4 @@
+bokeh
+mesa
+numpy
+scipy

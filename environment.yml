@@ -1,0 +1,13 @@
+name: dla
+dependencies:
+  - python=3.6.*
+  - bokeh=0.12.*
+  - numpy=1.14.*
+  - scipy=1.0.*
+  - tqdm=4.19.*
+  - jupyter=1.0.*
+  - ipython=6.2.*
+  - networkx=2.1.*
+  - matplotlib=2.1.*
+  - pip:
+    - mesa==0.8.*
